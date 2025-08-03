@@ -1,57 +1,12 @@
-# React Mini Projects 🚀 || Background Changer
+# React + Vite
 
-This repository contains beginner-friendly React projects that showcase the use of React fundamentals like `useState`, props, event handling, conditional rendering, and component composition. These projects are perfect for practicing or demonstrating your understanding of React basics.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 📁 Projects Included
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### 1. 🎨 Background Color Changer
-A simple app that lets users change the background color of the screen by clicking buttons. It uses:
-- `useState` for color state
-- Tailwind CSS for layout and styling
-- Fixed-position button panel
+## Expanding the ESLint configuration
 
-📷 **Preview Screenshot**
-><img width="1359" height="642" alt="bg_changer" src="https://github.com/user-attachments/assets/a278d97a-7cef-4fb8-a46e-4a8a623952a4" />
-
-> 
-
-🧠 **Concepts Used**: React state, conditional rendering, inline styling
-
----
-
-### 2. 💱 Currency Converter
-A functional currency converter using live exchange rates from the [Frankfurter API](https://www.frankfurter.app/).
-- Select "From" and "To" currencies
-- Enter an amount and convert
-- Swap currency selections
-- Tailwind CSS UI
-
-🧠 **Concepts Used**: React hooks, API calls, controlled components, data formatting, conditional UX
-
----
-
-## 🛠️ Tech Stack
-
-- React (Vite/CRA)
-- Tailwind CSS
-- JavaScript (ES6+)
-- Fetch API
-
----
-
-## 🚧 How to Run
-
-Clone the repo:
-
-```bash
-├── background-changer/
-│   ├── App.jsx
-│   └── ...│
-└── README.md
-
-git clone 
-cd Background-Changer
-npm install
-npm run dev  # or npm start
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
