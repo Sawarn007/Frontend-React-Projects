@@ -55,7 +55,8 @@ Clone the repository and run locally:
 
 # Clone the repo
 
-git clone https://github.com/your-username/todo-app.git
+````bash
+git clone https://github.com/Sawarn007/Frontend-React-Projects/tree/main/todoapp.git
 
 # Navigate to project folder
 
@@ -70,6 +71,7 @@ npm install
 npm start
 
 📂 Project Structure
+```bash
 todo-app/
 │
 ├── public/ # Public assets
@@ -79,10 +81,11 @@ todo-app/
 │ │ └── TodoForm.jsx # To accept Input details
 │ | └── TodoItem.jsx # Single todo item component
 │ │ └── TodoList.jsx # List of all todo items
-| |  
+| |
 │ ├── App.jsx # Main app container
 │ ├── App.css # Global styles
 │ └── main.jsx # React entry point
 │
 ├── package.json # Project metadata & dependencies
 └── README.md # Documentation
+````
