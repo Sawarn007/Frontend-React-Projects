@@ -55,7 +55,7 @@ Clone the repository and run locally:
 
 # Clone the repo
 
-````bash
+```bash
 git clone https://github.com/Sawarn007/Frontend-React-Projects/tree/main/todoapp.git
 
 # Navigate to project folder
@@ -69,8 +69,8 @@ npm install
 # Start the development server
 
 npm start
-##
-📂 Project Structure
+
+## 📂 Project Structure
 ```bash
 todo-app/
 │
