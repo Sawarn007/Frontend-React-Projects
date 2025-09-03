@@ -48,15 +48,12 @@ React (Create React App / Vite / Next.js — depending on your setup)
 FontAwesome (icons for actions)
 
 CSS3 (custom styles)
-
+````markdown
 ## ⚙️ Installation & Setup
 
-Clone the repository and run locally:
-
-# Clone the repo
-
-```bash
-git clone https://github.com/Sawarn007/Frontend-React-Projects/tree/main/todoapp.git
+1. Clone this repository:
+  ```bash
+  git clone https://github.com/Sawarn007/Frontend-React-Projects/tree/main/todoapp.git
 
 # Navigate to project folder
 
@@ -70,6 +67,9 @@ npm install
 
 npm start
 
+
+---
+````markdown
 ## 📂 Project Structure
 ```bash
 todo-app/
